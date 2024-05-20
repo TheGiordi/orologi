@@ -1,0 +1,288 @@
+
+header{
+	
+}
+
+.tr:hover{
+	transition: 0.7s ease-in-out;
+	border-radius: 50%
+}
+
+
+
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+}
+
+.navigazione {
+    background-color: #404040;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logocont {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.navigazione img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+
+
+.logoscritta  {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  color: white;
+}
+
+#menu {
+    display: flex;
+    gap: 40px; 
+    margin-left: 500px; 
+}
+
+.navigazione a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navigazione a:hover {
+    background-color: #575757;
+}
+		
+		
+		
+		
+.prodotti{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+	padding-top: 60px
+}
+
+.prodotto {
+    background-color: #f9f9f9;
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    
+    padding: 50px;
+    text-align: center;
+}
+
+.prodotto img {
+    
+    height: 300;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.prodotto h2 {
+    font-size: 1.5em;
+    
+}
+
+.prodotto p {
+    font-size: 1em;
+    color: #555;
+    
+}
+
+
+	
+	
+	
+button {
+    background-color: #333;
+    color: white;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: white;
+	color: #333;
+    border-color: #333;
+}
+
+
+
+.dentroprodotto{
+	display: flex;
+    height: 300;
+    justify-content: center;
+	gap:200px;
+	padding-top: 60px
+}
+
+
+
+
+.dentroprodotto img{
+	
+	border-radius: 20%
+}
+
+.ele {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
+
+.ele ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.ele li {
+    margin: 10px 0;
+}
+
+
+.box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+ font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+}
+
+.titolo{
+	font-size: 100px;
+	text-align: center;
+	color: green;
+  font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+}
+
+
+.titolo2{
+	font-size: 100px;
+	text-align: center;
+	color: #ecd9c6;
+  font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+	
+}
+
+
+.titolo2{
+	font-size: 100px;
+	text-align: center;
+	color: #ecd9c6;
+  font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+	
+}
+
+.titolo3{
+	
+		font-size: 100px;
+	text-align: center;
+	color: #b38600;
+  font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+}
+
+.titolo4{
+	
+		font-size: 100px;
+	text-align: center;
+	color: red;
+  font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+}
+.box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+ font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+}
+
+
+.box{
+	display:flex
+}
+
+footer {
+    background-color: #404040;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.footercont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-logo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+
